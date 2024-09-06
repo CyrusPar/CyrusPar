@@ -7,6 +7,8 @@
 
 - ⚡ Fun fact **I like to play badminton**
 
+-  Temporary Resume **<link>https://cyruspar.github.io/CyrusPar/ **
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
