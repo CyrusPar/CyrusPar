@@ -1,0 +1,225 @@
+* {                                /* General Styling */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {                                    /* White background for the body */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {                                       /* Design for the navbar */
+    background-color: #4267B2;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {                                /* use flex for handling the anchor for the about, contact,skills,and project */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {                               
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {                          /* Text decoration for the links */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-content {                               /* Use flex for he overall main content so that the design will work vene if it is zoom out */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.left-section {                                       /* Design for the left section which includes my photo, contact information and skills */
+    width: 25%;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profile {                                             /* center my photo */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile .image img {                               /* Size and radius of my featured photo */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profile .name {                        /* Design for my name */
+    font-size: 1.5em;
+    font-weight: bold;                  
+    margin-top: 10px;
+}
+
+.profile .career {                  /* Use gray so that it is not that standing similar to the name */
+    color: #888;
+    font-size: 1.1em;
+}
+
+.contact-info {                         /* add margin before the header*/
+    margin-bottom: 20px;
+}
+
+.contact-info ul {             
+    list-style: none;
+}
+
+.contact-info ul li {                   /* Use flex for the list of my conatct information */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info ul li i {                 /* add margin and use the color blue for the icons*/
+    margin-right: 10px;
+    color: #4267B2;
+}
+
+.skills-section {                    /* add margin before the skill section */
+    margin-bottom: 20px;
+}
+
+.skills-section ul {           
+    list-style: none;
+}
+
+.skill-title { 
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.progress-bar {                        /* design the holder for the skills section or list */
+    width: 100%;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 3px;
+}
+
+.progress {                              
+    height: 100%;
+    border-radius: 3px;
+}
+                                                                 /* Call the class for every programming language skills*/
+.js-progress { width: 20%; background-color: #f39c12; }
+.python-progress { width: 80%; background-color: #3498db; }
+.c-progress { width: 75%; background-color: #2ecc71; }
+.r-progress { width: 68%; background-color: #e74c3c; }
+.dart-progress { width: 78%; background-color: #9b59b6; }
+.java-progress { width: 92%; background-color: #e67e22; }
+
+.right-section {                                   /*size of the right content so it could fit the screen in regards to the left content*/ 
+    width: 70%;
+}
+
+.logo-section {                   /* Logo section */
+    margin-top: 50px; 
+    text-align: center; 
+}
+
+.skills-logo {                     /* Size of the logo */
+    max-width: 200px; 
+    max-height: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.right-main-content {                              /*Design for the right content*/ 
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.right-title {                       /*header title for the rigth content autobiography and previous projects*/ 
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.selfinfo {                       /*Design for my self info in terms of margin and text alignment*/ 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.project-list {                  /*Use flex for the overall content of the previous project*/ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-item {                  /*use flex for the images item*/ 
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.project-item img {              /*Size of the image project and it fits*/ 
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-info {                 /*use flex*/ 
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+.project-info h3 {              /*project info header design*/ 
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.project-description {        /*Design and alignment for the project description*/ 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.footer {                    /*Design for the footer which includes the color and size and placement*/    
+    text-align: center;
+    padding: 20px;
+    background-color: #4267B2;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+<body>
+    <nav class="navbar">                              <!--define a class navbar for the logo-->                
+        <div class="navbar-container">
+            <div class="logo">CYCRAFT</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>                <!--links that direct you to the parts of the resume-->  
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">                                 <!--main class that handles all the content of my resume-->  
+        <section class="left-section">                          <!--left section in which it handle my information contact, skills and image-->  
+            <div class="left-content">                           <!--left content that is inside the section-->  
+                <div class="profile">
+                    <div class="image">
+                        <img src="https://i.ibb.co/SKNwkXP/IMG-1572.jpg" alt="Profile Picture">       <!--my featured photo-->  
+                    </div>
+                    <h2 class="name">Cyrus Gello M. Par</h2>                               <!--separate class for the name and the career for easier design call in css-->  
+                    <p class="career">Software Engineer</p>
+                </div>
+                <div class="contact-info">                                     <!--contact info section-->  
+                    <h3 class="main-title">Contact Info</h3>    
+                    <ul>                                                         <!--unordered list for my contact information -->  
+                        <li><i class="fa fa-fax"></i>cmpar@up.edu.ph</li>
+                        <li><i class="fa fa-envelope"></i>gsaucecyrus23@gmail.com</li>
+                        <li><i class="fa fa-phone"></i>09765255622</li>
+                        <li><i class="fa fa-facebook"></i>www.facebook.com/cyrusgello.par</li>
+                        <li><i class="fa fa-instagram"></i>@clikxzcy</li>
+                        <li><i class="fa fa-map-marker"></i>Town and Country Exec Vill, Antipolo, Rizal</li>
+                    </ul>
+                </div>
+                <div class="skills-section">                                    <!--another class for the skills-->  
+                    <h3 class="main-title">Skills</h3>                           <!--their on different class since they both yield different values, make sure that they are unordered list-->  
+                    <ul>
+                        <li>
+                        </li>
+                            <p class="skill-title">Python</p>
+                            <div class="progress-bar">
+                                <div class="progress python-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Javascript</p>
+                            <div class="progress-bar">
+                                <div class="progress js-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">C</p>
+                            <div class="progress-bar">
+                                <div class="progress c-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">R</p>
+                            <div class="progress-bar">
+                                <div class="progress r-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Dart</p>
+                            <div class="progress-bar">
+                                <div class="progress dart-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Java</p>
+                            <div class="progress-bar">
+                                <div class="progress java-progress"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="logo-section">
+                        <img src="https://i.ibb.co/mRvN8gh/Untitled-design-37.png" alt="Logo" class="skills-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="right-section">              <!--Another section for the content of my autobiography and previous projects-->  
+            <div class="right-main-content">         
+                <section class="about sect">
+                    <h2 class="right-title">Autobiography</h2>           <!--another class for my autobiography  for easier design call-->  
+                    <p class="selfinfo">
+                        I am Cyrus Gello M. Par, an undergraduate programmer currently studying at the University of the Philippines Los Baños. I am 20 years old, 
+                        born on January 23, 2004, and originally from the Province of Marinduque. I began my studies at the University in 2022 after securing a position as
+                         a Computer Science student. I graduated from Marinduque National High School with High Honors.
+                         <br><br>
+                        Throughout my academic journey, I have developed numerous projects, demonstrating proficiency and knowledge in a variety of programming languages. 
+                        My goal is to complete my studies and pursue a career as a Software Engineer or Data Scientist, leveraging my diverse skills and experiences to contribute 
+                        effectively to a company.
+                    </p>
+                </section>
+
+                <section class="projects sect">                    <!--Another section for the content of my previous projects-->  
+                    <h2 class="right-title">Previous Projects</h2>          
+                    <div class="project-list">                                     <!--Same code for all the 4 projects but separated by a divider, same class-->  
+                        <div class="project-item">       
+                            <img src="https://i.ibb.co/vBQpbfX/Screenshot-2023-12-16-171755.png" alt="Project 1">
+                            <div class="project-info">
+                                <h3>CYCRAFT INVASION</h3>
+                                <p class="project-description">
+                                    My initial official project developed using Java is titled <strong>Cycraft Invasion</strong>. Inspired by the popular game 
+                                    <em>Minecraft</em> created by Mojang, this project involved creating a 2D shooting game that emulates combat scenarios and 
+                                    interactions with creatures similar to those in <em>Minecraft</em>. The development process emphasized the application of Object-Oriented
+                                     Programming principles and included the integration of visual and audio components through Java. This project allowed me to apply and 
+                                     expand my programming skills in a practical context, showcasing the effectiveness of Java for game development and object-oriented design.
+                                     <br><br>
+                                     Programming Course: <strong>CMSC 22</strong>    
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <img src="https://i.ibb.co/DCgr1CN/Untitled-design-35.png" alt="Project 2">
+                            <div class="project-info">
+                                <h3>TYPE THE PATTERN</h3>
+                                <p class="project-description">
+                                    My first programming project was a game designed to enhance memorization skills while efficiently storing user scores. 
+                                    The game incorporated automatic logic implementation for randomization. Developed using Python, it operates within a 
+                                    terminal environment and is compatible with any operating system. The game offers multiple difficulty levels, tracks 
+                                    user scores, and maintains leaderboards. The project required the use of various Python syntax and libraries to successfully 
+                                    implement the intended functionalities.
+                                    <br><br>
+                                    Programming Course: <strong>CMSC 12</strong>   
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <img src="https://i.ibb.co/d5Dzs7F/Screenshot-2024-09-04-20-29-58-813-ph-edu-up-cmsc23-g5-final-project.jpg" alt="Project 4">
+                            <div class="project-info">
+                                <h3>ELBIGAYAN APP</h3>
+                                <p class="project-description">
+                                    My first mobile application was a group project, in collaboration with three students, where I contributed as a front-end developer.
+                                    The project, titled Elbi Donation System, enables users to log in as either donors or organizations. The application was designed 
+                                    with user-friendly layouts to facilitate easy navigation. It incorporates Firebase for data storage, ensuring that all user inputs 
+                                    are securely saved and accessible for public use. Additionally, the project addressed authentication and security measures to protect
+                                    user privacy and prevent data leakage. The application was developed using Dart and Android Studio during my sophomore year.
+                                    <br><br>
+                                    Programming Course: <strong>CMSC 23</strong>   
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <img src="https://i.ibb.co/YZgCF1x/Screenshot-2023-12-20-173337.png" alt="Project 3">
+                            <div class="project-info">
+                                <h3>NUMERICAL AND SYMBOLIC COMPUTATION SOLVER</h3>
+                                <p class="project-description">
+                                    A mathematical program developed using the R language, titled Numerical and Symbolic Computation, features a user interface for 
+                                    enhanced functionality. This project implements various generic solvers, including Quadratic Spline Interpolation and Polynomial 
+                                    Regression. Both solvers return the function and estimated values based on provided inputs. Additionally, the project includes a 
+                                    Simplex implementation for the Diet Problem Solver, which considers a person’s nutritional requirements and a menu of available foods. 
+                                    The program determines the optimal food selection while minimizing cost and meeting nutritional needs. This project emphasizes 
+                                    computational problem solving, sources of computational errors, iterative approximation methods, and symbolic algebra.
+                                    <br><br>
+                                    Programming Course: <strong>CMSC 150</strong>   
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">                         <!--Add a footer on the end-->  
+        <p>&copy; 2024 Cyrus Par Property. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
 
