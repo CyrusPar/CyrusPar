@@ -7,7 +7,7 @@
 ###
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,tailwind,storybook,graphql,rust,nestjs,py,aws,angular,azure,bash,bitbucket,bootstrap,c,csharp,dart,digitalocean,django,docker,eslint,express,fastapi,figma,firebase,flutter,git,github,gcp,gradle,html,java,js,jupyter,laravel,linux,markdown,mongodb,nodejs,npm,postgres,pytorch,r,react,redis,ruby,selenium,svelte,ubuntu,vscode,vue,wordpress" height="40" />
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,tailwind,graphql,rust,nestjs,python,aws,androidstudio,angular,arduino,azure,bash,bitbucket,bootstrap,c,cmake,dart,django,docker,express,fastapi,figma,firebase,flutter,git,github,gcp,gradle,html,java,js,laravel,linux,markdown,mongodb,nodejs,npm,postgres,pycharm,pytorch,r,react,redis,ruby,selenium,svelte,ubuntu,vscode,vue,wordpress" height="40" />
 </div>
 
 ###
